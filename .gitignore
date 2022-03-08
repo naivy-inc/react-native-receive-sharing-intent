@@ -40,3 +40,8 @@ local.properties
 buck-out/
 \.buckd/
 *.keystore
+
+# for npm install using git remote url.
+example/
+doc/
+docs/

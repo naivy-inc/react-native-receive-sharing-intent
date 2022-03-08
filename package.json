@@ -19,7 +19,10 @@
     "!ios/build",
     "!**/__tests__",
     "!**/__fixtures__",
-    "!**/__mocks__"
+    "!**/__mocks__",
+    "!doc",
+    "!docs",
+    "!example"
   ],
   "scripts": {
     "test": "jest",
@@ -63,7 +66,7 @@
     "prettier": "^2.0.5",
     "react": "16.13.1",
     "react-native": "0.63.4",
-    "react-native-builder-bob": "^",
+    "react-native-builder-bob": "^0.18.2",
     "release-it": "^14.2.2",
     "typescript": "^4.1.3"
   },
